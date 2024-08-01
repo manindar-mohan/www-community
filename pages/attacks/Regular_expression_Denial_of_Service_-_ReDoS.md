@@ -147,17 +147,17 @@ The following example checks if the username is part of the password
 entered by the user.
 
 ```
-String userName = textBox1.Text;
-String password = textBox2.Text;
-Regex testPassword = new Regex(userName);
-Match match = testPassword.Match(password);
-if (match.Success)
+String userName = textBox1.Text;
+String password = textBox2.Text;
+Regex testPassword = new Regex(userName);
+Match match = testPassword.Match(password);
+if (match.Success)
 {
-    MessageBox.Show("Do not include name in password.");
+    MessageBox.Show("Do not include name in password.");
 }
 else
 {
-    MessageBox.Show("Good password.");
+    MessageBox.Show("Good password.");
 }
 ```
 
@@ -171,12 +171,12 @@ will hang.
 - [Regular expression Denial of Service Revisited, Sep-2009](http://www.checkmarx.com/NewsDetails.aspx?id=23&cat=3)
 - [RegExLib](http://regexlib.com/)
 - [ReDOS Attacks: From the Exploitation to the Prevention (in .NET)](https://dzone.com/articles/regular-expressions-denial)
-- [Tool for detecting ReDoS vulnerabilities.](http://www.cs.bham.ac.uk/~hxt/research/rxxr.shtml)
+- [Tool for detecting ReDoS vulnerabilities.](https://web.archive.org/web/20211027135828/https://www.cs.bham.ac.uk/~hxt/research/rxxr.shtml)
 - Examples of ReDoS in open source applications:
     - [ReDoS in DataVault](https://nvd.nist.gov/vuln/detail/CVE-2009-3277)
     - [ReDoS in EntLib](https://nvd.nist.gov/vuln/detail/CVE-2009-3275)
     - [ReDoS in NASD CORE.NET Terelik](https://nvd.nist.gov/vuln/detail/CVE-2009-3276)
     - [ReDoS in .NET Framework](http://blog.malerisch.net/2015/09/net-mvc-redos-denial-of-service-vulnerability-cve-2015-2526.html)
-    - [ReDoS in Javascript minimatch](https://nodesecurity.io/advisories/118)
+    - [ReDoS in Javascript minimatch](https://nvd.nist.gov/vuln/detail/CVE-2022-3517)
 
 [Category:Injection](https://owasp.org/www-community/Injection_Flaws)

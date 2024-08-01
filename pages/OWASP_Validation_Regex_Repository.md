@@ -40,7 +40,7 @@ Please carefully test the regex in your regex engine.
 
   <regex>
     <name>e-mail</name>
-    <pattern><![CDATA[^[a-zA-Z0-9_+&*-]+(?:\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,15}$]]></pattern>
+    <pattern><![CDATA[^[a-zA-Z0-9_+&*-]+(?:\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}$]]></pattern>
     <description>A valid e-mail address</description>
   </regex>
 
@@ -108,6 +108,12 @@ Please carefully test the regex in your regex engine.
     <name>Spanish_digitwords</name>
     <pattern><![CDATA[^(cero|uno|dos|tres|cuatro|cinco|seis|siete|ocho|nueve)$]]></pattern>
     <description>The Spanish words representing the digits 0 to 9</description>
+  </regex>
+
+  <regex>
+    <name>UK_NINO</name>
+    <pattern><![CDATA[^[A-Z]{2}\d{6}[A-Z]></pattern>
+    <description>United Kingdom National Insurance Number (which is not a number!)</description>
   </regex>
 
   <regex>

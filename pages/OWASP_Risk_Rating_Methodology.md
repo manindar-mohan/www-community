@@ -24,7 +24,8 @@ Alternatively you may with the review information about Threat Modeling, as that
 
 - <https://owasp.org/www-community/Threat_Modeling>
 - <https://owasp.org/www-community/Application_Threat_Modeling>
-- [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
+- [OWASP pytm](https://owasp.org/www-project-pytm/) Pythonic framework for threat modeling
+- [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) threat modeling tool
 
 Lastly you might want to refer to the [references](#references) below.
 
@@ -394,7 +395,6 @@ tune the model by matching it against risk ratings the business agrees are accur
 * [Industry standard vulnerability severity and risk rankings (CVSS)](https://www.first.org/cvss/)
 * [Threat Modeling Web Applications](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff648006(v=pandp.10))
 * [Threat Modeling](Threat_Modeling)
-* [Practical Threat Analysis](http://www.ptatechnologies.com)
 * [A Platform for Risk Analysis of Security Critical Systems](https://sourceforge.net/projects/coras/)
 * [Model-driven Development and Analysis of Secure Information Systems](http://heim.ifi.uio.no/~ketils/securis/)
 * [Value Driven Security Threat Modeling Based on Attack Path Analysis](https://ieeexplore.ieee.org/document/4076949)
